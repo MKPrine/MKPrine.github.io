@@ -3465,7 +3465,7 @@ html {
 
 .reveal-overlay {
     display: none;
-    position: fixed;
+    position: absolute;  /** change this line for issues with modal scroll **/
     top: 0;
     bottom: 0;
     left: 0;
