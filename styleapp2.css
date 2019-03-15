@@ -3528,7 +3528,8 @@ tbody th {
     }
     .reveal.tiny {
         width: 30%;
-        max-width: 75rem
+        max-width: 75rem;
+        overflow-y: scroll;
     }
     .reveal.small {
         width: 50%;
