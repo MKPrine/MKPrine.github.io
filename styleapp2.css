@@ -3240,7 +3240,7 @@ html {
         display: inline-block
     }
     .reveal {
-        min-height: 0
+        min-height: 0;
     }
 }
 
@@ -3465,14 +3465,14 @@ html {
 
 .reveal-overlay {
     display: none;
-    position: absolute;  /** change this line for issues with modal scroll **/
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 1005;
     background-color: rgba(10, 10, 10, .45);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .reveal {
@@ -3528,8 +3528,7 @@ tbody th {
     }
     .reveal.tiny {
         width: 30%;
-        max-width: 75rem;
-        overflow-y: scroll;
+        max-width: 75rem
     }
     .reveal.small {
         width: 50%;
@@ -3549,7 +3548,7 @@ tbody th {
     height: 100vh;
     min-height: 100vh;
     max-width: none;
-    margin-left: 0;
+    margin-left: 0
 }
 
 .switch {
