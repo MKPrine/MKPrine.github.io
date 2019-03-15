@@ -3472,7 +3472,9 @@ html {
     right: 0;
     z-index: 1005;
     background-color: rgba(10, 10, 10, .45);
-    overflow-y: auto;
+    overflow-y: scroll;
+
+
 }
 
 .reveal {
@@ -3484,7 +3486,7 @@ html {
     background-color: #fefefe;
     border-radius: 0;
     position: absolute;
-    overflow-y: scroll;
+    overflow-y: auto
 }
 
 .switch-paddle,
